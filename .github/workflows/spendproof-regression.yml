@@ -37,4 +37,5 @@ jobs:
       - name: Run reviewed SDK regression example
         run: node --import tsx examples/sdk-regression.ts
       - name: Build without loading integration environment files
-        run: node --input-type=module -e 'import { build } from "vite"; await build({ envDir: false });'
+        run: |
+          node --input-type=module -e 'import { build } from "vite"; await build({ envDir: false });'
