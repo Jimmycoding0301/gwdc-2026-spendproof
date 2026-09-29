@@ -1,0 +1,16 @@
+{
+  "schema": "gwdc.spendproof.base-sepolia-anchor.v1",
+  "network": "Base Sepolia",
+  "chainId": 84532,
+  "transactionHash": "0x10f68d330eca7baca5cee9c4a74cdc4b7732a43933021f3db7e0297fb68ce25a",
+  "blockNumber": 47411854,
+  "status": "confirmed",
+  "from": "0x6f53a1Db6E76E7D0ce01995026145C5989c7a283",
+  "to": "0x6f53a1Db6E76E7D0ce01995026145C5989c7a283",
+  "valueWei": "0",
+  "gasUsed": "24120",
+  "evidenceDigest": "2dd0b2273fc2d0803a23a19628f0506929f50267493fb7b2ee0e30c63ca90e8f",
+  "calldataPrefix": "spendproof:v1:",
+  "explorerUrl": "https://sepolia.basescan.org/tx/0x10f68d330eca7baca5cee9c4a74cdc4b7732a43933021f3db7e0297fb68ce25a",
+  "claimBoundary": "Zero-value evidence digest anchor; not a supplier payment, invoice authenticity proof, or production authorization."
+}
